@@ -1,0 +1,246 @@
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+            rel="stylesheet"
+            as="style"
+            onload="this.rel='stylesheet'"
+            href="https://fonts.googleapis.com/css2?display=swap&amp;family=Epilogue%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Bistro 33</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+</head>
+<body>
+<div
+        class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden"
+        style="--checkbox-tick-svg: url('data:image/svg+xml,%3csvg viewBox=%270 0 16 16%27 fill=%27rgb(255,255,255)%27 xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath d=%27M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z%27/%3e%3c/svg%3e'); --radio-dot-svg: url('data:image/svg+xml,%3csvg viewBox=%270 0 16 16%27 fill=%27rgb(23,20,17)%27 xmlns=%27http://www.w3.org/2000/svg%27%3e%3ccircle cx=%278%27 cy=%278%27 r=%273%27/%3e%3c/svg%3e'); --select-button-svg: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724px%27 height=%2724px%27 fill=%27rgb(135,114,100)%27 viewBox=%270 0 256 256%27%3e%3cpath d=%27M181.66,170.34a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L128,212.69l42.34-42.35A8,8,0,0,1,181.66,170.34Zm-96-84.68L128,43.31l42.34,42.35a8,8,0,0,0,11.32-11.32l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,85.66,85.66Z%27%3e%3c/path%3e%3c/svg%3e'); font-family: Epilogue, &quot;Noto Sans&quot;, sans-serif;"
+>
+    <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f4f2f0] px-10 py-3">
+            <div class="flex items-center gap-4 text-[#171411]">
+                <div class="size-4">
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                                d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z"
+                                fill="currentColor"
+                        ></path>
+                    </svg>
+                </div>
+                <h2 class="text-[#171411] text-lg font-bold leading-tight tracking-[-0.015em]">Bistro 33</h2>
+            </div>
+            <div class="flex flex-1 justify-end gap-8">
+                <div class="flex items-center gap-9">
+                    <a class="text-[#171411] text-sm font-medium leading-normal" href="#">Menu</a>
+                    <a class="text-[#171411] text-sm font-medium leading-normal" href="#">Wine List</a>
+                    <a class="text-[#171411] text-sm font-medium leading-normal" href="#">Cocktails</a>
+                    <a class="text-[#171411] text-sm font-medium leading-normal" href="#">Events</a>
+                    <a class="text-[#171411] text-sm font-medium leading-normal" href="#">Contact Us</a>
+                </div>
+                <div class="flex gap-2">
+                    <button
+                            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#df6c20] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+                    >
+                        <span class="truncate">Reservations</span>
+                    </button>
+                    <button
+                            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#f4f2f0] text-[#171411] text-sm font-bold leading-normal tracking-[0.015em]"
+                    >
+                        <span class="truncate">Order Online</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+            <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+                <div class="@container">
+                    <div class="@[480px]:p-4">
+                        <div
+                                class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4"
+                                style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://cdn.usegalileo.ai/stability/ab031666-7fc5-4b15-a08f-9234119a4152.png");'
+                        >
+                            <div class="flex flex-col gap-2 text-center">
+                                <h1
+                                        class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                                >
+                                    Reserve a Table
+                                </h1>
+                                <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                                    Join us for a unique dining experience, featuring the best of American cuisine and hospitality. Reservations are recommended.
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-[#171411] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Location</h2>
+                <div class="flex items-center gap-4 bg-white px-4 min-h-[72px] py-2">
+                    <div class="flex flex-col justify-center">
+                        <p class="text-[#171411] text-base font-medium leading-normal line-clamp-1">Taste of America</p>
+                        <p class="text-[#877264] text-sm font-normal leading-normal line-clamp-2">123 Main St, San Francisco, CA 94105</p>
+                    </div>
+                </div>
+                <h2 class="text-[#171411] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Make a Reservation</h2>
+                <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+                    <label class="flex flex-col min-w-40 flex-1">
+                        <p class="text-[#171411] text-base font-medium leading-normal pb-2">Select a date</p>
+                        <select
+                                class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#171411] focus:outline-0 focus:ring-0 border border-[#e5dfdc] bg-white focus:border-[#e5dfdc] h-14 bg-[image:--select-button-svg] placeholder:text-[#877264] p-[15px] text-base font-normal leading-normal"
+                        >
+                            <option value="one">Sep 10</option>
+                            <option value="two">two</option>
+                            <option value="three">three</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="@container">
+                    <div class="relative flex w-full flex-col items-start justify-between gap-3 p-4 @[480px]:flex-row @[480px]:items-center">
+                        <div class="flex w-full shrink-[3] items-center justify-between">
+                            <p class="text-[#171411] text-base font-medium leading-normal">Select a time</p>
+                            <p class="text-[#171411] text-sm font-normal leading-normal @[480px]:hidden">7:00 PM</p>
+                        </div>
+                        <div class="flex h-4 w-full items-center gap-4">
+                            <div class="flex h-1 flex-1 rounded-sm bg-[#e5dfdc]">
+                                <div class="h-full w-[32%] rounded-sm bg-[#171411]"></div>
+                                <div class="relative"><div class="absolute -left-2 -top-1.5 size-4 rounded-full bg-[#171411]"></div></div>
+                            </div>
+                            <p class="text-[#171411] text-sm font-normal leading-normal hidden @[480px]:block">7:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-3 p-4">
+                    <label class="flex items-center gap-4 rounded-xl border border-solid border-[#e5dfdc] p-[15px]">
+                        <input
+                                type="radio"
+                                class="h-5 w-5 border-2 border-[#e5dfdc] bg-transparent text-transparent checked:border-[#171411] checked:bg-[image:--radio-dot-svg] focus:outline-none focus:ring-0 focus:ring-offset-0 checked:focus:border-[#171411]"
+                                name="a3bfcb94-bdd3-4978-98b0-72cc0d2f53dd"
+                                checked=""
+                        />
+                        <div class="flex grow flex-col"><p class="text-[#171411] text-sm font-medium leading-normal">1 person</p></div>
+                    </label>
+                    <label class="flex items-center gap-4 rounded-xl border border-solid border-[#e5dfdc] p-[15px]">
+                        <input
+                                type="radio"
+                                class="h-5 w-5 border-2 border-[#e5dfdc] bg-transparent text-transparent checked:border-[#171411] checked:bg-[image:--radio-dot-svg] focus:outline-none focus:ring-0 focus:ring-offset-0 checked:focus:border-[#171411]"
+                                name="a3bfcb94-bdd3-4978-98b0-72cc0d2f53dd"
+                        />
+                        <div class="flex grow flex-col"><p class="text-[#171411] text-sm font-medium leading-normal">2 people</p></div>
+                    </label>
+                    <label class="flex items-center gap-4 rounded-xl border border-solid border-[#e5dfdc] p-[15px]">
+                        <input
+                                type="radio"
+                                class="h-5 w-5 border-2 border-[#e5dfdc] bg-transparent text-transparent checked:border-[#171411] checked:bg-[image:--radio-dot-svg] focus:outline-none focus:ring-0 focus:ring-offset-0 checked:focus:border-[#171411]"
+                                name="a3bfcb94-bdd3-4978-98b0-72cc0d2f53dd"
+                        />
+                        <div class="flex grow flex-col"><p class="text-[#171411] text-sm font-medium leading-normal">3 people</p></div>
+                    </label>
+                    <label class="flex items-center gap-4 rounded-xl border border-solid border-[#e5dfdc] p-[15px]">
+                        <input
+                                type="radio"
+                                class="h-5 w-5 border-2 border-[#e5dfdc] bg-transparent text-transparent checked:border-[#171411] checked:bg-[image:--radio-dot-svg] focus:outline-none focus:ring-0 focus:ring-offset-0 checked:focus:border-[#171411]"
+                                name="a3bfcb94-bdd3-4978-98b0-72cc0d2f53dd"
+                        />
+                        <div class="flex grow flex-col"><p class="text-[#171411] text-sm font-medium leading-normal">4 people</p></div>
+                    </label>
+                    <label class="flex items-center gap-4 rounded-xl border border-solid border-[#e5dfdc] p-[15px]">
+                        <input
+                                type="radio"
+                                class="h-5 w-5 border-2 border-[#e5dfdc] bg-transparent text-transparent checked:border-[#171411] checked:bg-[image:--radio-dot-svg] focus:outline-none focus:ring-0 focus:ring-offset-0 checked:focus:border-[#171411]"
+                                name="a3bfcb94-bdd3-4978-98b0-72cc0d2f53dd"
+                        />
+                        <div class="flex grow flex-col"><p class="text-[#171411] text-sm font-medium leading-normal">5 people</p></div>
+                    </label>
+                    <label class="flex items-center gap-4 rounded-xl border border-solid border-[#e5dfdc] p-[15px]">
+                        <input
+                                type="radio"
+                                class="h-5 w-5 border-2 border-[#e5dfdc] bg-transparent text-transparent checked:border-[#171411] checked:bg-[image:--radio-dot-svg] focus:outline-none focus:ring-0 focus:ring-offset-0 checked:focus:border-[#171411]"
+                                name="a3bfcb94-bdd3-4978-98b0-72cc0d2f53dd"
+                        />
+                        <div class="flex grow flex-col"><p class="text-[#171411] text-sm font-medium leading-normal">6 people</p></div>
+                    </label>
+                    <label class="flex items-center gap-4 rounded-xl border border-solid border-[#e5dfdc] p-[15px]">
+                        <input
+                                type="radio"
+                                class="h-5 w-5 border-2 border-[#e5dfdc] bg-transparent text-transparent checked:border-[#171411] checked:bg-[image:--radio-dot-svg] focus:outline-none focus:ring-0 focus:ring-offset-0 checked:focus:border-[#171411]"
+                                name="a3bfcb94-bdd3-4978-98b0-72cc0d2f53dd"
+                        />
+                        <div class="flex grow flex-col"><p class="text-[#171411] text-sm font-medium leading-normal">7 people</p></div>
+                    </label>
+                    <label class="flex items-center gap-4 rounded-xl border border-solid border-[#e5dfdc] p-[15px]">
+                        <input
+                                type="radio"
+                                class="h-5 w-5 border-2 border-[#e5dfdc] bg-transparent text-transparent checked:border-[#171411] checked:bg-[image:--radio-dot-svg] focus:outline-none focus:ring-0 focus:ring-offset-0 checked:focus:border-[#171411]"
+                                name="a3bfcb94-bdd3-4978-98b0-72cc0d2f53dd"
+                        />
+                        <div class="flex grow flex-col"><p class="text-[#171411] text-sm font-medium leading-normal">8 people</p></div>
+                    </label>
+                    <label class="flex items-center gap-4 rounded-xl border border-solid border-[#e5dfdc] p-[15px]">
+                        <input
+                                type="radio"
+                                class="h-5 w-5 border-2 border-[#e5dfdc] bg-transparent text-transparent checked:border-[#171411] checked:bg-[image:--radio-dot-svg] focus:outline-none focus:ring-0 focus:ring-offset-0 checked:focus:border-[#171411]"
+                                name="a3bfcb94-bdd3-4978-98b0-72cc0d2f53dd"
+                        />
+                        <div class="flex grow flex-col"><p class="text-[#171411] text-sm font-medium leading-normal">9 people</p></div>
+                    </label>
+                    <label class="flex items-center gap-4 rounded-xl border border-solid border-[#e5dfdc] p-[15px]">
+                        <input
+                                type="radio"
+                                class="h-5 w-5 border-2 border-[#e5dfdc] bg-transparent text-transparent checked:border-[#171411] checked:bg-[image:--radio-dot-svg] focus:outline-none focus:ring-0 focus:ring-offset-0 checked:focus:border-[#171411]"
+                                name="a3bfcb94-bdd3-4978-98b0-72cc0d2f53dd"
+                        />
+                        <div class="flex grow flex-col"><p class="text-[#171411] text-sm font-medium leading-normal">10 people</p></div>
+                    </label>
+                    <label class="flex items-center gap-4 rounded-xl border border-solid border-[#e5dfdc] p-[15px]">
+                        <input
+                                type="radio"
+                                class="h-5 w-5 border-2 border-[#e5dfdc] bg-transparent text-transparent checked:border-[#171411] checked:bg-[image:--radio-dot-svg] focus:outline-none focus:ring-0 focus:ring-offset-0 checked:focus:border-[#171411]"
+                                name="a3bfcb94-bdd3-4978-98b0-72cc0d2f53dd"
+                        />
+                        <div class="flex grow flex-col"><p class="text-[#171411] text-sm font-medium leading-normal">11 people</p></div>
+                    </label>
+                    <label class="flex items-center gap-4 rounded-xl border border-solid border-[#e5dfdc] p-[15px]">
+                        <input
+                                type="radio"
+                                class="h-5 w-5 border-2 border-[#e5dfdc] bg-transparent text-transparent checked:border-[#171411] checked:bg-[image:--radio-dot-svg] focus:outline-none focus:ring-0 focus:ring-offset-0 checked:focus:border-[#171411]"
+                                name="a3bfcb94-bdd3-4978-98b0-72cc0d2f53dd"
+                        />
+                        <div class="flex grow flex-col"><p class="text-[#171411] text-sm font-medium leading-normal">12 people</p></div>
+                    </label>
+                </div>
+                <div class="flex flex-wrap gap-3 p-4">
+                    <label
+                            class="text-sm font-medium leading-normal flex items-center justify-center rounded-xl border border-[#e5dfdc] px-4 h-11 text-[#171411] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#df6c20] relative cursor-pointer"
+                    >
+                        Standard
+                        <input type="radio" class="invisible absolute" name="5200ba77-75ea-4973-8744-e23acdc7c67c" />
+                    </label>
+                    <label
+                            class="text-sm font-medium leading-normal flex items-center justify-center rounded-xl border border-[#e5dfdc] px-4 h-11 text-[#171411] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#df6c20] relative cursor-pointer"
+                    >
+                        High Top
+                        <input type="radio" class="invisible absolute" name="5200ba77-75ea-4973-8744-e23acdc7c67c" />
+                    </label>
+                    <label
+                            class="text-sm font-medium leading-normal flex items-center justify-center rounded-xl border border-[#e5dfdc] px-4 h-11 text-[#171411] has-[:checked]:border-[3px] has-[:checked]:px-3.5 has-[:checked]:border-[#df6c20] relative cursor-pointer"
+                    >
+                        Bar
+                        <input type="radio" class="invisible absolute" name="5200ba77-75ea-4973-8744-e23acdc7c67c" />
+                    </label>
+                </div>
+                <div class="px-4">
+                    <label class="flex gap-x-3 py-3 flex-row">
+                        <input
+                                type="checkbox"
+                                class="h-5 w-5 rounded border-[#e5dfdc] border-2 bg-transparent text-[#df6c20] checked:bg-[#df6c20] checked:border-[#df6c20] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#e5dfdc] focus:outline-none"
+                                checked=""
+                        />
+                        <p class="text-[#171411] text-base font-normal leading-normal">Add to my calendar</p>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
